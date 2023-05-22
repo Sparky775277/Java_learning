@@ -69,7 +69,7 @@ public class Main {
 
         boolean firstTime = true;
         ObjectMapper objectMapper = new ObjectMapper().findAndRegisterModules();
-        File file = new File("src/main/java/org/example/drakvuf-trace2.log");
+        File file = new File("src/main/java/org/example/drakvuf-trace.log");
         Scanner scanner = new Scanner(file);
         String line = scanner.nextLine();
 
