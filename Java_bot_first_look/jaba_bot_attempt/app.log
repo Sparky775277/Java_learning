@@ -1,0 +1,65 @@
+2023-02-23 23:04:25,550 INFO org.example.SpringDemoBot.SpringDemoBotApplication[1.] [main] Starting SpringDemoBotApplication using Java 17.0.2 with PID 3360 (G:\java projects\Java_bot\jaba_bot_attempt\SpringDemoBot\SpringDemoBot\target\classes started by Computer in G:\java projects\Java_bot\jaba_bot_attempt\SpringDemoBot)
+2023-02-23 23:04:25,553 INFO org.example.SpringDemoBot.SpringDemoBotApplication[1.] [main] No active profile set, falling back to 1 default profile: "default"
+2023-02-23 23:04:26,340 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate[1.] [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-23 23:04:26,417 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate[1.] [main] Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2023-02-23 23:04:27,042 INFO org.hibernate.jpa.internal.util.LogHelper[1.] [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-23 23:04:27,113 INFO org.hibernate.Version[1.] [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-02-23 23:04:27,373 WARN org.hibernate.orm.deprecation[1.] [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-02-23 23:04:27,702 INFO com.zaxxer.hikari.HikariDataSource[1.] [main] HikariPool-1 - Starting...
+2023-02-23 23:04:28,050 INFO com.zaxxer.hikari.pool.HikariPool[1.] [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@33bb3f86
+2023-02-23 23:04:28,053 INFO com.zaxxer.hikari.HikariDataSource[1.] [main] HikariPool-1 - Start completed.
+2023-02-23 23:04:28,126 INFO SQL dialect[1.] [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-02-23 23:04:28,589 INFO org.hibernate.cfg.beanvalidation.TypeSafeActivator[1.] [main] Error calling `jakarta.validation.Validation#buildDefaultValidatorFactory`
+jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+	at jakarta.validation.Validation$GenericBootstrapImpl.configure(Validation.java:291)
+	at jakarta.validation.Validation.buildDefaultValidatorFactory(Validation.java:103)
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.getValidatorFactory(TypeSafeActivator.java:479)
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.activate(TypeSafeActivator.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hibernate.cfg.beanvalidation.BeanValidationIntegrator.integrate(BeanValidationIntegrator.java:137)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:287)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1425)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at org.example.SpringDemoBot.SpringDemoBotApplication.main(SpringDemoBotApplication.java:10)
+2023-02-23 23:04:29,716 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[1.] [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-23 23:04:29,730 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[1.] [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-23 23:04:31,200 INFO org.example.SpringDemoBot.SpringDemoBotApplication[1.] [main] Started SpringDemoBotApplication in 6.156 seconds (process running for 7.267)
+2023-02-23 23:04:35,652 ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession[1.] [Sparky775275_Bot Telegram Executor] Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.example.SpringDemoBot.service.TelegramBot.onUpdateReceived(TelegramBot.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2023-02-23 23:04:49,990 ERROR org.telegram.telegrambots.updatesreceivers.DefaultBotSession[1.] [Sparky775275_Bot Telegram Executor] Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.CallbackQuery.getData()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getCallbackQuery()" is null
+	at org.example.SpringDemoBot.service.TelegramBot.onUpdateReceived(TelegramBot.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2023-02-23 23:08:43,247 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[1.] [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-23 23:08:43,250 INFO com.zaxxer.hikari.HikariDataSource[1.] [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-02-23 23:08:43,260 INFO com.zaxxer.hikari.HikariDataSource[1.] [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
