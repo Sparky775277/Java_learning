@@ -1,0 +1,522 @@
+{
+  "timetableresult": {
+    "ttitem": [
+      {
+        "segment": [
+          {
+            "segmentid": {
+              "mot": {
+                "@displaytype": "B",
+                "@type": "BLT",
+                "#text": "Buss"
+              },
+              "carrier": {
+                "name": "Vasttrafik",
+                "url": "http://www.vasttrafik.se/",
+                "id": 279,
+                "number": 100
+              }
+            },
+            "direction": "Goteborg Nils Ericsonterminal",
+            "departure": {
+              "location": {
+                "@id": 7400300,
+                "@x": 12.932004,
+                "@y": 57.720838,
+                "name": "Boras Centralstation",
+                "stationinfo": {
+                  "@exists": "true"
+                }
+              },
+              "datetime": "2012-11-26 20:10"
+            },
+            "arrival": {
+              "location": {
+                "@id": 7420483,
+                "@x": 11.971856,
+                "@y": 57.710275,
+                "name": "Goteborg Nils Ericsonterminal"
+              },
+              "datetime": "2012-11-26 21:10"
+            }
+          },
+          {
+            "segmentid": {
+              "mot": {
+                "@displaytype": "G",
+                "@type": "G",
+                "#text": "Gang"
+              },
+              "distance": 218
+            },
+            "departure": {
+              "location": {
+                "@id": 7420483,
+                "@x": 11.971856,
+                "@y": 57.710275,
+                "name": "Goteborg Nils Ericsonterminal"
+              },
+              "datetime": "2012-11-26 21:10"
+            },
+            "arrival": {
+              "location": {
+                "@id": 7400002,
+                "@x": 11.973479,
+                "@y": 57.708895,
+                "name": "Goteborg Centralstation",
+                "stationinfo": {
+                  "@exists": "true"
+                }
+              },
+              "datetime": "2012-11-26 21:13"
+            }
+          }
+        ]
+      },
+      {
+        "segment": [
+          {
+            "segmentid": {
+              "mot": {
+                "@displaytype": "B",
+                "@type": "BLT",
+                "#text": "Buss"
+              },
+              "carrier": {
+                "name": "Vasttrafik",
+                "url": "http://www.vasttrafik.se/",
+                "id": 279,
+                "number": 100
+              }
+            },
+            "direction": "Goteborg Nils Ericsonterminal",
+            "departure": {
+              "location": {
+                "@id": 7400300,
+                "@x": 12.932004,
+                "@y": 57.720838,
+                "name": "Boras Centralstation",
+                "stationinfo": {
+                  "@exists": "true"
+                }
+              },
+              "datetime": "2012-11-26 20:40"
+            },
+            "arrival": {
+              "location": {
+                "@id": 7420483,
+                "@x": 11.971856,
+                "@y": 57.710275,
+                "name": "Goteborg Nils Ericsonterminal"
+              },
+              "datetime": "2012-11-26 21:40"
+            }
+          },
+          {
+            "segmentid": {
+              "mot": {
+                "@displaytype": "G",
+                "@type": "G",
+                "#text": "Gang"
+              },
+              "distance": 218
+            },
+            "departure": {
+              "location": {
+                "@id": 7420483,
+                "@x": 11.971856,
+                "@y": 57.710275,
+                "name": "Goteborg Nils Ericsonterminal"
+              },
+              "datetime": "2012-11-26 21:40"
+            },
+            "arrival": {
+              "location": {
+                "@id": 7400002,
+                "@x": 11.973479,
+                "@y": 57.708895,
+                "name": "Goteborg Centralstation",
+                "stationinfo": {
+                  "@exists": "true"
+                }
+              },
+              "datetime": "2012-11-26 21:43"
+            }
+          }
+        ]
+      },
+      {
+        "segment": [
+          {
+            "segmentid": {
+              "mot": {
+                "@displaytype": "B",
+                "@type": "BXB",
+                "#text": "Expressbuss"
+              },
+              "carrier": {
+                "name": "Swebus",
+                "url": "http://www.swebus.se/",
+                "id": 690,
+                "number": 830
+              }
+            },
+            "direction": "Goteborg Nils Ericsonterminal",
+            "remarks": {
+              "remark": [
+                {
+                  "@id": "A7",
+                  "#text": "Djur ej tillatet"
+                },
+                {
+                  "@id": "AA",
+                  "#text": "Endast 2 klass"
+                }
+              ]
+            },
+            "departure": {
+              "location": {
+                "@id": 7400300,
+                "@x": 12.932004,
+                "@y": 57.720838,
+                "name": "Boras Centralstation",
+                "stationinfo": {
+                  "@exists": "true"
+                }
+              },
+              "datetime": "2012-11-26 20:50"
+            },
+            "arrival": {
+              "location": {
+                "@id": 7420483,
+                "@x": 11.971856,
+                "@y": 57.710275,
+                "name": "Goteborg Nils Ericsonterminal"
+              },
+              "datetime": "2012-11-26 21:55"
+            }
+          },
+          {
+            "segmentid": {
+              "mot": {
+                "@displaytype": "G",
+                "@type": "G",
+                "#text": "Gang"
+              },
+              "distance": 218
+            },
+            "departure": {
+              "location": {
+                "@id": 7420483,
+                "@x": 11.971856,
+                "@y": 57.710275,
+                "name": "Goteborg Nils Ericsonterminal"
+              },
+              "datetime": "2012-11-26 21:55"
+            },
+            "arrival": {
+              "location": {
+                "@id": 7400002,
+                "@x": 11.973479,
+                "@y": 57.708895,
+                "name": "Goteborg Centralstation",
+                "stationinfo": {
+                  "@exists": "true"
+                }
+              },
+              "datetime": "2012-11-26 21:58"
+            }
+          }
+        ]
+      },
+      {
+        "segment": [
+          {
+            "segmentid": {
+              "mot": {
+                "@displaytype": "B",
+                "@type": "BLT",
+                "#text": "Buss"
+              },
+              "carrier": {
+                "name": "Vasttrafik",
+                "url": "http://www.vasttrafik.se/",
+                "id": 279,
+                "number": 100
+              }
+            },
+            "direction": "Goteborg Nils Ericsonterminal",
+            "departure": {
+              "location": {
+                "@id": 7400300,
+                "@x": 12.932004,
+                "@y": 57.720838,
+                "name": "Boras Centralstation",
+                "stationinfo": {
+                  "@exists": "true"
+                }
+              },
+              "datetime": "2012-11-26 21:10"
+            },
+            "arrival": {
+              "location": {
+                "@id": 7420483,
+                "@x": 11.971856,
+                "@y": 57.710275,
+                "name": "Goteborg Nils Ericsonterminal"
+              },
+              "datetime": "2012-11-26 22:10"
+            }
+          },
+          {
+            "segmentid": {
+              "mot": {
+                "@displaytype": "G",
+                "@type": "G",
+                "#text": "Gang"
+              },
+              "distance": 218
+            },
+            "departure": {
+              "location": {
+                "@id": 7420483,
+                "@x": 11.971856,
+                "@y": 57.710275,
+                "name": "Goteborg Nils Ericsonterminal"
+              },
+              "datetime": "2012-11-26 22:10"
+            },
+            "arrival": {
+              "location": {
+                "@id": 7400002,
+                "@x": 11.973479,
+                "@y": 57.708895,
+                "name": "Goteborg Centralstation",
+                "stationinfo": {
+                  "@exists": "true"
+                }
+              },
+              "datetime": "2012-11-26 22:13"
+            }
+          }
+        ]
+      },
+      {
+        "segment": [
+          {
+            "segmentid": {
+              "mot": {
+                "@displaytype": "B",
+                "@type": "BLT",
+                "#text": "Buss"
+              },
+              "carrier": {
+                "name": "Vasttrafik",
+                "url": "http://www.vasttrafik.se/",
+                "id": 279,
+                "number": 100
+              }
+            },
+            "direction": "Goteborg Nils Ericsonterminal",
+            "departure": {
+              "location": {
+                "@id": 7400300,
+                "@x": 12.932004,
+                "@y": 57.720838,
+                "name": "Boras Centralstation",
+                "stationinfo": {
+                  "@exists": "true"
+                }
+              },
+              "datetime": "2012-11-26 21:40"
+            },
+            "arrival": {
+              "location": {
+                "@id": 7420483,
+                "@x": 11.971856,
+                "@y": 57.710275,
+                "name": "Goteborg Nils Ericsonterminal"
+              },
+              "datetime": "2012-11-26 22:40"
+            }
+          },
+          {
+            "segmentid": {
+              "mot": {
+                "@displaytype": "G",
+                "@type": "G",
+                "#text": "Gang"
+              },
+              "distance": 218
+            },
+            "departure": {
+              "location": {
+                "@id": 7420483,
+                "@x": 11.971856,
+                "@y": 57.710275,
+                "name": "Goteborg Nils Ericsonterminal"
+              },
+              "datetime": "2012-11-26 22:40"
+            },
+            "arrival": {
+              "location": {
+                "@id": 7400002,
+                "@x": 11.973479,
+                "@y": 57.708895,
+                "name": "Goteborg Centralstation",
+                "stationinfo": {
+                  "@exists": "true"
+                }
+              },
+              "datetime": "2012-11-26 22:43"
+            }
+          }
+        ]
+      },
+      {
+        "segment": [
+          {
+            "segmentid": {
+              "mot": {
+                "@displaytype": "B",
+                "@type": "BLT",
+                "#text": "Buss"
+              },
+              "carrier": {
+                "name": "Vasttrafik",
+                "url": "http://www.vasttrafik.se/",
+                "id": 279,
+                "number": 101
+              }
+            },
+            "direction": "Goteborg Nils Ericsonterminal",
+            "departure": {
+              "location": {
+                "@id": 7400300,
+                "@x": 12.932004,
+                "@y": 57.720838,
+                "name": "Boras Centralstation",
+                "stationinfo": {
+                  "@exists": "true"
+                }
+              },
+              "datetime": "2012-11-26 21:55"
+            },
+            "arrival": {
+              "location": {
+                "@id": 7420483,
+                "@x": 11.971856,
+                "@y": 57.710275,
+                "name": "Goteborg Nils Ericsonterminal"
+              },
+              "datetime": "2012-11-26 23:01"
+            }
+          },
+          {
+            "segmentid": {
+              "mot": {
+                "@displaytype": "G",
+                "@type": "G",
+                "#text": "Gang"
+              },
+              "distance": 218
+            },
+            "departure": {
+              "location": {
+                "@id": 7420483,
+                "@x": 11.971856,
+                "@y": 57.710275,
+                "name": "Goteborg Nils Ericsonterminal"
+              },
+              "datetime": "2012-11-26 23:01"
+            },
+            "arrival": {
+              "location": {
+                "@id": 7400002,
+                "@x": 11.973479,
+                "@y": 57.708895,
+                "name": "Goteborg Centralstation",
+                "stationinfo": {
+                  "@exists": "true"
+                }
+              },
+              "datetime": "2012-11-26 23:04"
+            }
+          }
+        ]
+      },
+      {
+        "segment": [
+          {
+            "segmentid": {
+              "mot": {
+                "@displaytype": "B",
+                "@type": "BLT",
+                "#text": "Buss"
+              },
+              "carrier": {
+                "name": "Vasttrafik",
+                "url": "http://www.vasttrafik.se/",
+                "id": 279,
+                "number": 100
+              }
+            },
+            "direction": "Goteborg Nils Ericsonterminal",
+            "departure": {
+              "location": {
+                "@id": 7400300,
+                "@x": 12.932004,
+                "@y": 57.720838,
+                "name": "Boras Centralstation",
+                "stationinfo": {
+                  "@exists": "true"
+                }
+              },
+              "datetime": "2012-11-26 22:10"
+            },
+            "arrival": {
+              "location": {
+                "@id": 7420483,
+                "@x": 11.971856,
+                "@y": 57.710275,
+                "name": "Goteborg Nils Ericsonterminal"
+              },
+              "datetime": "2012-11-26 23:10"
+            }
+          },
+          {
+            "segmentid": {
+              "mot": {
+                "@displaytype": "G",
+                "@type": "G",
+                "#text": "Gang"
+              },
+              "distance": 218
+            },
+            "departure": {
+              "location": {
+                "@id": 7420483,
+                "@x": 11.971856,
+                "@y": 57.710275,
+                "name": "Goteborg Nils Ericsonterminal"
+              },
+              "datetime": "2012-11-26 23:10"
+            },
+            "arrival": {
+              "location": {
+                "@id": 7400002,
+                "@x": 11.973479,
+                "@y": 57.708895,
+                "name": "Goteborg Centralstation",
+                "stationinfo": {
+                  "@exists": "true"
+                }
+              },
+              "datetime": "2012-11-26 23:13"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

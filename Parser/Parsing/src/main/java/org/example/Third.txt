@@ -1,0 +1,2 @@
+{"Plugin": "init", "Time": "1667906360.198547", "ProcessName": "/usr/bin/okular", "Arguments": "\\\"/home/raymond/Desktop/RAR_BBS.pdf\\\"", "Filename": "/home/raymond/Desktop/RAR_BBS.pdf", "Filetype": "pdf", "Size": "70099", "ImageName": "astralinux-orel-x64@0", "ImageVersion": "1.0.0.37", "OsType": "linux"}
+{"Plugin":"procmon","TimeStamp":"1667906362.916785","PID":0,"PPID":0,"RunningProcess":"swapper/0"}
